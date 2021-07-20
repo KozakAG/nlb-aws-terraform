@@ -70,7 +70,7 @@ http://webserver-lb-9d7802b93c9303ce.elb.eu-west-2.amazonaws.com/
 
 ![git_images](./images/3_2.png)
 
-We change run the script **user_data_new**  for change our web:
+We  run the script **user_data_new**  for change our web:
 
 ![git_images](./images/user_data_new.png)
 
