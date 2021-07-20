@@ -1,6 +1,6 @@
 #<powershell>
 Install-WindowsFeature -name Web-Server -IncludeManagementTools
-
-#New-Item -Path C:\inetpub\wwwroot\index.html -ItemType File -Value "<img src=http://en.dnstools.ch/out/1.gif>" -Force
-
+Set-NetFirewallRule -Name “WINRM-HTTP-In-TCP-PUBLIC” -RemoteAddress “Any”
+Enable-PSRemoting –force
+Start-Service -Name Winrm
 #</powershell>

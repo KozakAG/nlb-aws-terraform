@@ -54,7 +54,7 @@ terraform aplly
 
 To deploy our webserver we use the Powershell script: ***user_data.ps1***
 
-![git_images](./images/ps1_1.png)
+![git_images](./images/user_data.png)
 
 After **terraform aplly:**
 
@@ -70,11 +70,10 @@ http://webserver-lb-9d7802b93c9303ce.elb.eu-west-2.amazonaws.com/
 
 ![git_images](./images/3_2.png)
 
-If we change the script and run the command ***terraform aplly***, our instances are replaced :
+We change run the script **user_data_new**  for change our web:
 
-![git_images](./images/ps1_2.png)
+![git_images](./images/user_data_new.png)
 
-![git_images](./images/1_2.png)
 
 http://webserver-lb-9d7802b93c9303ce.elb.eu-west-2.amazonaws.com/
 
@@ -84,12 +83,5 @@ http://webserver-lb-9d7802b93c9303ce.elb.eu-west-2.amazonaws.com/
 
 ![git_images](./images/6.png)
 
-# Our instances:
 
-![git_images](./images/3_2.png)
-
-![git_images](./images/4_2.png)
-
-
-Thus we have Green/Blue Deployment.
 
